@@ -22,19 +22,6 @@ This repository provides a **trained Llama-3.2-1B-Instruct model without a causa
 
 ---
 
-## 🎯 Intended Use
-
-This model is **not** intended for standard autoregressive text generation.  
-Instead, it is optimized for **importance estimation**, where access to both left and right context is required.
-
-Example applications include:
-- Token importance estimation for long-context compression
-- Preprocessing for retrieval-augmented generation (RAG)
-- Interpretability and attribution analysis
-- Training or supervising token-selection modules
-
----
-
 ## 📦 Checkpoints
 
 The trained model checkpoints are available on Hugging Face:
